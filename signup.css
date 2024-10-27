@@ -1,0 +1,97 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    background: url(images/bg.jpg) no-repeat center center fixed;
+    /* margin: 20px 80px; */
+    display: block;
+}
+
+.registrationform {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 800px;
+    padding: 25px 25px;
+    border-radius: 15px;
+}
+
+.registrationform h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1px;
+    padding-bottom: 15px;
+}
+
+h1::after {
+    content: " ";
+    position: absolute;
+    display: inline-block;
+    border-bottom: 8px solid rgba(0, 0, 0, 0.2);
+    left: 5%;
+    top: 13.5%;
+    width: 53.1%;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input {
+    width: calc(100% / 2 - 20px);
+    padding: 10px 10px;
+}
+
+.box {
+    font-size: 20px;
+    height: 45px;
+    width: 350px;
+    padding: 10px 20px;
+    margin: 10px 0 10px 0;
+}
+
+.spanvalue {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding: 10px 0px;
+}
+
+.gender {
+    font-size: 35px;
+    margin: 2px 2px;
+}
+
+.photo {
+    font-size: 35px;
+    margin: 10px 0px;
+}
+
+.filename {
+    font-size: 20px;
+    color: blanchedalmond;
+}
+
+.btnreg {
+    font-size: 28px;
+    margin: 21px 300px;
+    padding: 10px 27px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: none;
+}
+
+#line {
+    text-decoration: none;
+}
+
+.btnreg:hover {
+    color: black;
+    background: rgb(96, 208, 241);
+    transition: 0.3s;
+}

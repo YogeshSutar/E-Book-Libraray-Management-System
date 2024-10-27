@@ -1,0 +1,208 @@
+
+
+/*------------------- Contact-Us webpage --------------*/
+
+
+.silder {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+/* nav bar style */
+
+.navbar123 {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+
+nav ul li a {
+    font-weight: bolder;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-decoration: none;
+}
+
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.815);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 246, 166);
+    transition: 0.6s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+nav p {
+    color: white;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: -63px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.div1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.qri{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.qri h2{
+    color: #9e1604;
+    font-size: 34px;
+    padding-top: 30px;
+}
+
+.qri p{
+    font-size: 15px;
+}
+
+.qri h2{
+    
+}
+.contact h3{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 35px;
+}
+
+.contact-col{
+    
+    margin:auto;
+    padding: 5%;
+    
+}
+
+.contact-col1 input, .contact-col1 textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 13px 0;
+    border: none;
+    background: #abd4f0;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    
+}
+form{
+    border: 1px solid rgb(8, 0, 255);
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media(max-width: 700px){
+    .qri h2{
+        color: #9e1604;
+        font-size: 20px;
+    }
+    
+    .qri p{
+        font-size: 10px;
+    }
+    .contact h3{
+        font-size: 30px;
+    }
+}
+/*  team members name last part  */
+
+.lastpoint {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(112, 112, 112, 0.884);
+}
+
+.socialicon {
+    background-color: rgb(225, 146, 245);
+    text-align: center;
+    padding: 10px;
+}
+
+.socialicon .fa {
+    padding: 12px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 5px 7px;
+    transition: 0.5s;
+    border-radius: 10%;
+}
+
+.socialicon .fa:hover {
+    transform: scale(1.15);
+    transition: 0.4s;
+}
+
+.socialicon .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.socialicon .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.socialicon .fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.socialicon .fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+/* last point names*/
+
+.lastpointname p {
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;
+    color: #f1f1f1;
+}
+
+.lastpointname h2 {
+    text-align: center;
+    margin: 20px;
+    color: #fff;
+}
+
+
+
+
+

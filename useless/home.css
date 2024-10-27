@@ -1,0 +1,383 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    transform: all 1.2s linear;
+}
+
+.video1 {
+    opacity: 1;
+}
+/* .video1 {
+    opacity: 0;
+}
+
+.video1 {
+    opacity: 0;
+} */
+
+.container1 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 1);
+}
+/* slider background image  */
+
+.silder {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(photo/video1.mp4);
+    /* animation: zoom 40s ease-in-out infinite; */
+}
+/* nav bar style */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+
+nav ul li a {
+    font-weight: bolder;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-decoration: none;
+}
+
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.815);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 246, 166);
+    transition: 0.6s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+nav p {
+    color: white;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: -55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.div1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* title the home of knowledge*/
+
+.texthead {
+    display: grid;
+    color: rgba(240, 248, 255, 0);
+}
+
+.texthead {
+    display: grid;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 20px;
+    font-size: 60px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.1vw rgba(255, 255, 255, 0);
+}
+
+.texthead::before {
+    display: block;
+    content: "The_House_Of_Knowledge...";
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 0.4rem solid rgba(138, 138, 138, 0);
+    animation: animate 1s linear infinite;
+    -webkit-text-stroke: 0.1vw rgb(255, 255, 255);
+    -webkit-animation: animate 7s linear infinite;
+    overflow: hidden;
+}
+
+@keyframes animate {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 70%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+/* 1st author information*/
+
+.row {
+    position: inherit;
+}
+
+.author_title {
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.author_title:hover {
+    color: rgb(54, 35, 179);
+    transition: 1.0s;
+}
+
+.author_title_line {
+    margin-left: 30%;
+    height: 10px;
+}
+
+.imgwilliam {
+    border-radius: 30px;
+    max-width: 600px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.text1 {
+    width: 40%;
+    float: right;
+    margin-right: 100px;
+}
+
+.authorname {
+    text-align: center;
+}
+
+.paragraph1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 600px;
+    margin-top: 0px;
+    font-size: 22px;
+    margin-left: -40px;
+}
+/* 2st author information */
+
+.imgTagore {
+    border-radius: 30px;
+    max-width: 620px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.text2 {
+    width: 40%;
+    float: left;
+    margin-left: 100px;
+}
+
+.authorname2 {
+    text-align: center;
+}
+
+.paragraph2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
+    width: 600px;
+    font-size: 22px;
+}
+/* 3st author information */
+
+.imgsambhaji {
+    border-radius: 30px;
+    max-width: 600px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.text3 {
+    width: 40%;
+    float: right;
+    margin-right: 100px;
+}
+
+.authorname3 {
+    text-align: center;
+}
+
+.paragraph3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
+    width: 600px;
+    font-size: 23px;
+    margin-left: -40px;
+}
+/* 4st author information */
+
+.imgbhagat {
+    border-radius: 30px;
+    max-width: 600px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.text4 {
+    width: 40%;
+    float: left;
+    margin-left: 100px;
+}
+
+.authorname4 {
+    text-align: center;
+}
+
+.paragraph4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
+    width: 600px;
+    font-size: 22px;
+}
+/*author names hover*/
+
+.col h1:hover {
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+/* stars icon css */
+
+.checked {
+    color: orange;
+}
+/*people review rating*/
+
+.name {
+    color: #000000;
+    text-align: center;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.rowstar {
+    width: 100%;
+    display: flex;
+}
+
+.colstar {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.names {
+    background-color: #e4e4e4;
+    padding: 10px;
+}
+
+.names img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.personename {
+    padding: 6px;
+    font-size: 30px;
+}
+
+.stars {
+    font-size: larger;
+    padding: 10px;
+}
+/*  team members name last part  */
+
+.lastpoint {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(112, 112, 112, 0.884);
+}
+
+.socialicon {
+    background-color: rgb(225, 146, 245);
+    text-align: center;
+    padding: 10px;
+}
+
+.socialicon .fa {
+    padding: 12px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 5px 7px;
+    transition: 0.5s;
+    border-radius: 10%;
+}
+
+.socialicon .fa:hover {
+    transform: scale(1.15);
+    transition: 0.4s;
+}
+
+.socialicon .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.socialicon .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.socialicon .fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.socialicon .fa-instagram {
+    background: #125688;
+    color: white;
+}
+/* last point names*/
+
+.lastpointname p {
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;
+    color: #f1f1f1;
+}
+
+.lastpointname h2 {
+    text-align: center;
+    margin: 20px;
+    color: #fff;
+}
